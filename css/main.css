@@ -24,3 +24,24 @@ body {
     
     
 }
+
+.texter {
+  margin-top: 10em;
+}
+
+.author {
+  color:dimgray;
+}
+
+.copy, .more, .telegram {
+  margin-top: 2em;
+  padding: 1em;
+}
+
+.footer {
+  margin-top: 10em;
+}
+
+.help {
+  margin: 2em;
+}
