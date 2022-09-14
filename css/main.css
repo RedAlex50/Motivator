@@ -1,0 +1,26 @@
+body {
+    background-color:rgb(0, 24, 22);
+
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+    color: white;
+}
+
+.placeholder {
+    background-color: rgb(12, 8, 11);
+    background: linear-gradient(-45deg,
+      transparent 49.9%, 
+      rgb(16, 4, 85) 49.9%, rgb(16, 4, 85) 60%, 
+      transparent 60%
+    ),
+    linear-gradient(-45deg,
+    rgb(16, 4, 85) 10%,
+      transparent 10%
+    );
+    background-size: 40px 40px;
+
+    border: solid 5px rgb(16, 4, 85);
+    
+    
+}
