@@ -1,5 +1,5 @@
 body {
-    background-color:rgb(0, 24, 22);
+    background-color:rgb(3, 17, 16);
 
 
     -webkit-font-smoothing: antialiased;
@@ -25,23 +25,51 @@ body {
     
 }
 
+
 .texter {
-  margin-top: 10em;
+  margin-top: 12em;
+  margin-bottom: 1.5em;
 }
 
 .author {
   color:dimgray;
 }
 
+.motiv {
+  padding: 1em;
+  padding-top: 0.1em;
+  padding-bottom: 0;
+}
+
 .copy, .more, .telegram {
+  color: white;
+  text-decoration: none;
   margin-top: 2em;
   padding: 1em;
+  transition: 300ms;
+  padding-bottom: 0.6em;
 }
+
+.copy:hover, .more:hover, .telegram:hover {
+  color: rgb(190, 218, 255);
+  transition: 300ms;
+  text-shadow: rgb(117, 156, 207) 0 0 10px;
+}
+
 
 .footer {
   margin-top: 10em;
 }
 
 .help {
+  color: white;
+  text-decoration: none;
   margin: 2em;
+  transition: 300ms;
+}
+
+.help:hover {
+  color: rgb(190, 218, 255);
+  transition: 300ms;
+  text-shadow: rgb(117, 156, 207) 0 0 10px;
 }
