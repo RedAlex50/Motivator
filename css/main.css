@@ -50,17 +50,6 @@ body {
   padding-bottom: 0.6em;
 }
 
-.copy:hover, .more:hover, .telegram:hover {
-  color: rgb(190, 218, 255);
-  transition: 300ms;
-  text-shadow: rgb(117, 156, 207) 0 0 10px;
-}
-
-
-.footer {
-  margin-top: 10em;
-}
-
 .help {
   color: white;
   text-decoration: none;
@@ -68,8 +57,22 @@ body {
   transition: 300ms;
 }
 
-.help:hover {
+.copy:hover, .more:hover, .telegram:hover, .help:hover {
   color: rgb(190, 218, 255);
   transition: 300ms;
   text-shadow: rgb(117, 156, 207) 0 0 10px;
 }
+
+.copy:active, .more:active, .telegram:active, .help:active {
+  color: rgb(117, 156, 207);
+  transition: 100ms;
+}
+
+
+
+
+.footer {
+  margin-top: 10em;
+}
+
+
